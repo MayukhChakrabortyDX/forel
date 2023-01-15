@@ -1,0 +1,25 @@
+{
+  "name": "@forel/web",
+  "version": "1.0.1",
+  "description": "The Web Toolkit for Forel Core",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevMayukh-STRTM/forel.git"
+  },
+  "keywords": [
+    "Forel"
+  ],
+  "author": "Mayukh Chakraborty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevMayukh-STRTM/forel/issues"
+  },
+  "homepage": "https://github.com/DevMayukh-STRTM/forel#readme",
+  "dependencies": {
+    "@forel/core": "^1.0.1"
+  }
+}

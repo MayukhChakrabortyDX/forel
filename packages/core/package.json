@@ -1,0 +1,22 @@
+{
+  "name": "@forel/core",
+  "version": "1.0.8",
+  "description": "The Progressive UI framework to build modern apps",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevMayukh-STRTM/forel.git"
+  },
+  "keywords": [
+    "Forel"
+  ],
+  "author": "Mayukh Chakraborty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevMayukh-STRTM/forel/issues"
+  },
+  "homepage": "https://github.com/DevMayukh-STRTM/forel#readme"
+}

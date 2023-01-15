@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Monoton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+#logo {
+    font-family: Monoton;
+    font-size: 100px;
+    background: linear-gradient(to right, #FF3333, #FFC633, #50FF33, #339DFF, #A533FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.forel-app {
+    color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11, 11, 11);
+}
+
+.forel-app-inner > p:first-child {
+    margin-bottom: -30px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Kaushan Script;
+}
+
+#btn {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+#get-started {
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#social {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#social > * {
+    cursor: pointer;
+}
